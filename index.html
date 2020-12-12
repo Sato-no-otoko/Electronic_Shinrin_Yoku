@@ -203,7 +203,7 @@ sound="src:#creek; volume: 4; on: click"
    <a-entity id="sceneMeeting" visible="false">
    	<a-sky src="#rocks"></a-sky>
     <a-box id="boxsound2" position="8 2 0" sound="; volume: 2" stop2 onclick="setScene1()"></a-box>
-    <a-entity   geometry="primitive: cylinder; radius:0.5; height:1.5" position="4 4 4" color="#FFC65D" material="src:#waterfall; roughness:-5"
+    <a-entity   geometry="primitive: cylinder; radius:0.5; height:1.5" position="4 4 4" color="#FFC65D" material="src: #waterfall; roughness:-5"
                   event-set__enter="_event: mouseenter; _target: #cylinderText; visible: true"
                   event-set__leave="_event: mouseleave; _target: #cylinderText; visible: false"
               animation="property: rotation; to: 0 360 0; easing: linear; dur: 75000; loop: true" >
@@ -238,7 +238,7 @@ sound="src:#creek; volume: 4; on: click"
     </a-box>
      
                <a-entity id="textsphere" geometry="primitive: sphere; radius:6" position="-12 8 11" visible="false" opacity=".2" color="lightgreen" 
-                         material="src:#watermov; roughness:-2; metalness:.1; opacity: .5; spherical-env-map: #home"
+                         material="src: #watermov; roughness: -2; metalness: .1; opacity: .5; spherical-env-map: #home"
                                      
                event-set__enter="_event: mouseenter; _target: #textsphere; visible: true"
                event-set__leave="_event: mouseleave; _target: #textsphere; visible: false"
